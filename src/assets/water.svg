@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2200 2200" style="enable-background:new 0 0 2200 2200;" xml:space="preserve">
+<g id="background">
+	<rect x="0" y="0" style="fill:#FFFFFF;" width="2200" height="2200"/>
+</g>
+<g id="Objects">
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="1100" y1="588.2383" x2="1100" y2="1311.061">
+			<stop  offset="0" style="stop-color:#40C5FF"/>
+			<stop  offset="1" style="stop-color:#102D78"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_1_);" d="M1409.303,1033.306c0,170.823-138.48,309.303-309.303,309.303
+			s-309.303-138.48-309.303-309.303c0-246.112,309.303-508.022,309.303-508.022S1409.303,787.194,1409.303,1033.306z"/>
+		
+			<linearGradient id="SVGID_00000022562330988419121180000006613229821568599702_" gradientUnits="userSpaceOnUse" x1="1100" y1="1300.7876" x2="1100" y2="1561.1305">
+			<stop  offset="0" style="stop-color:#40C5FF"/>
+			<stop  offset="1" style="stop-color:#102D78"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_00000022562330988419121180000006613229821568599702_);" d="M1627.837,1382.222
+			c0,77.369-236.322,140.083-527.837,140.083s-527.837-62.714-527.837-140.083c0-46.618,85.792-87.908,217.755-113.372
+			c-96.028,21.517-156.516,52.866-156.516,87.782c0,64.89,208.902,117.486,466.598,117.486s466.598-52.597,466.598-117.486
+			c0-34.915-60.489-66.264-156.516-87.782C1542.045,1294.313,1627.837,1335.603,1627.837,1382.222z"/>
+		
+			<linearGradient id="SVGID_00000152963443636608519000000007368490637551873956_" gradientUnits="userSpaceOnUse" x1="1100" y1="1347.9061" x2="1100" y2="1731.9965">
+			<stop  offset="0" style="stop-color:#40C5FF"/>
+			<stop  offset="1" style="stop-color:#102D78"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_00000152963443636608519000000007368490637551873956_);" d="M1878.731,1468.048
+			c0,114.144-348.651,206.668-778.731,206.668s-778.731-92.524-778.731-206.668c0-68.777,126.571-129.693,321.26-167.26
+			c-141.672,31.745-230.912,77.995-230.912,129.506c0,95.734,308.198,173.331,688.383,173.331s688.383-77.597,688.383-173.331
+			c0-51.511-89.24-97.761-230.912-129.506C1752.16,1338.355,1878.731,1399.27,1878.731,1468.048z"/>
+	</g>
+</g>
+</svg>
