@@ -14,7 +14,7 @@ const Landpage = () => {
           <p className="p1">This system designed to track unpaid payment</p>
           <p className="p2">
             Service beneficiaries are highly recommed to pay early to avoid any
-            inconvenience
+            inconvenience its now
           </p>
 
           <img src={image1} alt="water" className="water-img" />
