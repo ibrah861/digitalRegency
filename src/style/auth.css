@@ -5,6 +5,7 @@
 
 .signup h1 {
     text-align: center;
+    font-size: 1.4rem;
 }
 
 form {
@@ -23,12 +24,13 @@ form {
         /* border: 1px solid white; */
         max-width: 100%;
         width: 100%;
+        margin-top: 1.2em;
     }
 
     .inputfield {
         max-width: inherit;
         width: inherit;
-
+        
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -43,6 +45,6 @@ form {
 
     .inputfield button {
         margin-top: 0.5em;
-        font-weight: bold;
+        
     }
 }
