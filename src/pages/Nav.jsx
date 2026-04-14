@@ -1,6 +1,6 @@
-import React from "react";
-import { useContext } from "react";
+import { useContext, React } from "react";
 import { navigationState } from "../util/Context";
+import { Link } from "react-router-dom";
 
 // assets
 import image1 from "../assets/water.svg";
@@ -25,7 +25,9 @@ const Navigation = () => {
             <div className="item"></div>
             <div className="item"></div>
           </div>
-          <img src={image1} alt="water" />
+          <Link to="/">
+            <img src={image1} alt="water" />
+          </Link>
         </nav>
       </div>
     </div>

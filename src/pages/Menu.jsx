@@ -1,5 +1,6 @@
-import React from "react";
-import { useContext } from "react";
+import { useContext, useState } from "react";
+import { Link } from "react-router-dom";
+
 import { navigationState } from "../util/Context";
 
 const Menu = () => {
@@ -10,8 +11,14 @@ const Menu = () => {
         <div className="menu-nav">
           <p>Navigation</p>
           <ul>
-            <li>Login</li>
-            <li>Signin</li>
+            <Link>
+              <li>Login</li>
+            </Link>
+
+            <Link to="/auth-signup">
+              <li>Sign up</li>
+            </Link>
+
             <li>Logout</li>
           </ul>
         </div>

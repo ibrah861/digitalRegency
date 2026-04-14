@@ -1,0 +1,48 @@
+.signup {
+    padding: 0.2em 0.3em;
+    margin-top: 0.8em;
+}
+
+.signup h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column
+    ;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media (width < 500px) {
+    form {
+        /* border: 1px solid white; */
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .inputfield {
+        max-width: inherit;
+        width: inherit;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 0.3em;
+    }
+
+    .inputfield input,button {
+        max-width: inherit;
+        width: inherit;
+        padding: 0.6em 0.2em;
+    }
+
+    .inputfield button {
+        margin-top: 0.5em;
+        font-weight: bold;
+    }
+}

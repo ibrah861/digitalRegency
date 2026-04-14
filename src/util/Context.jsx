@@ -11,7 +11,6 @@ export const NavigationContext = ({ children }) => {
       <navigationState.Provider value={{ menu, setMenu }}>
         {children}
       </navigationState.Provider>
-      ;
     </>
   );
 };
