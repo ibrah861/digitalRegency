@@ -16,7 +16,7 @@ const AuthSignup = () => {
           </div>
 
           <div className="inputfield">
-            <button>Signup</button>
+            <button>Sign up</button>
           </div>
         </form>
       </div>
