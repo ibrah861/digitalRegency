@@ -40,7 +40,7 @@ form {
     .inputfield input,button {
         max-width: inherit;
         width: inherit;
-        padding: 0.6em 0.2em;
+        padding: 0.3em 0.2em;
     }
 
     .inputfield button {
