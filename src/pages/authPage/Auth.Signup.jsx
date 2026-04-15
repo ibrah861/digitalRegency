@@ -66,7 +66,7 @@ const AuthSignup = () => {
         <p className="or-p">_______ OR _______ </p>
 
         <p>
-          I need some help. can you help me ? &nbsp;<Link>Contact</Link>
+          I need some help please &nbsp;<Link>Contact us</Link>
         </p>
       </div>
     </>

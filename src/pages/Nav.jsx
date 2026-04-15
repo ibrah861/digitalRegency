@@ -16,9 +16,14 @@ const Navigation = () => {
       <div className="main">
         <nav>
           <ul>
-            <li>Login</li>
+            <Link to="/auth-signin">
+              <li>Login</li>
+            </Link>
+
             <li>Logout</li>
-            <li>Signin</li>
+            <Link to="/auth-signup">
+              <li>Signup</li>
+            </Link>
           </ul>
           <div className="menu" onClick={handleMenu}>
             <div className="item"></div>

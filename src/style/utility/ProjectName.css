@@ -1,0 +1,30 @@
+.project-name {
+    position: absolute;
+    background: white;
+    right: 0;
+    left: 0;
+    color: black;
+    
+}
+
+.input-project {
+    width: 100%;
+    border: 1px solid gray;
+    padding: 0.3em;
+    
+}
+
+.input-project:focus {
+    outline: 1px solid blue;
+   
+} 
+
+.create-postname  {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+.closer {
+    font-size: 1.6em;
+}

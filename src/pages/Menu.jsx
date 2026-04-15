@@ -11,7 +11,7 @@ const Menu = () => {
         <div className="menu-nav">
           <p>Navigation</p>
           <ul>
-            <Link>
+            <Link to="/auth-signin">
               <li>Login</li>
             </Link>
 
@@ -20,6 +20,15 @@ const Menu = () => {
             </Link>
 
             <li>Logout</li>
+            <Link to="/create">
+              <li>Create</li>
+            </Link>
+            <Link to="/update">
+              <li>Update</li>
+            </Link>
+            <Link to="/view">
+              <li>View</li>
+            </Link>
           </ul>
         </div>
       )}
