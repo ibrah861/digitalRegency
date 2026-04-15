@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 // pages
 import Loader from "../../util/Loader";
 
 const AuthSignup = () => {
+  const [signin, setSignin] = useState(false);
+  const handleSignup = (e) => {
+    e.preventDefault();
+    setSignin(true);
+
+    const close = () => {
+      setSignin(false);
+    };
+    setTimeout(close, 7000);
+  };
   return (
     <>
       <div className="signup">
@@ -41,13 +51,13 @@ const AuthSignup = () => {
           </Link>
 
           <div className="inputfield">
-            <button>{true ? "Creating Account ..." : "Sign up"}</button>
+            <button onClick={handleSignup}>
+              {true ? "Creating Account ..." : "Sign up"}
+            </button>
           </div>
         </form>
 
-        <div className="loader">
-          <Loader />
-        </div>
+        {signin && <Loader />}
       </div>
     </>
   );
