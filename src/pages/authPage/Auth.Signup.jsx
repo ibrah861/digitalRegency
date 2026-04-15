@@ -46,9 +46,13 @@ const AuthSignup = () => {
             />
           </div>
 
-          <Link>
-            <p className="logMobile">Login</p>
-          </Link>
+          <p className="signin-p">
+            I have Account Already &nbsp;
+            <Link>
+              <span>Login</span>
+            </Link>
+            &nbsp;
+          </p>
 
           <div className="inputfield">
             <button onClick={handleSignup}>
@@ -58,6 +62,12 @@ const AuthSignup = () => {
         </form>
 
         {signin && <Loader />}
+
+        <p className="or-p">_______ OR _______ </p>
+
+        <p>
+          I need some help. can you help me ? &nbsp;<Link>Contact</Link>
+        </p>
       </div>
     </>
   );

@@ -15,6 +15,15 @@
   margin-top: 0.9em;
 }
 
+.signin-p {
+  margin-bottom: 2em;
+}
+
+.or-p {
+  text-align: center;
+
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -35,7 +44,7 @@ form input:focus {
   outline: 1px solid blue;
 }
 
-form a {
+ a {
   color: blue;
   text-align: left;
   margin-bottom: 0.8em;
