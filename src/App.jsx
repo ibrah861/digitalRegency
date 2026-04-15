@@ -7,6 +7,7 @@ import "./App.css";
 import "./style/Landpage.css";
 import "./style/Nav.css";
 import "./style/auth.css";
+import "./style/loader.css";
 
 // pages
 import Landpage from "./pages/Landpage";

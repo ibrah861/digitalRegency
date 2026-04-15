@@ -1,78 +1,100 @@
 .signup {
-    padding: 0.2em 0.3em;
-    margin: 1.8em auto 0 auto;
-    width: 90%;
-
+  padding: 0.2em 0.3em;
+  margin: 1.8em auto 0 auto;
+  width: 90%;
+  position: relative;
+  
 }
 
 .signup h1 {
-   
-    font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .signup p {
-    font-weight: 300;
-    margin-top: 0.9em;
+  font-weight: 300;
+  margin-top: 0.9em;
 }
 
 form {
-    display: flex;
-    flex-direction: column
-    ;
-    justify-content: center;
-    /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
 }
 
- form label {
-    font-weight: 300;
- }
+form label {
+  font-weight: 300;
+}
 
- form input {
-    border:1px solid white;
-    outline: 1px solid blue;
- }
+form input {
+  border: 1px solid white;
+  border-radius: 2px;
+}
 
- form a{
-    color :blue;
-    text-align: left;
-    margin-bottom: 0.8em;
- }
+form input:focus {
+  outline: 1px solid blue;
+}
 
- form button {
-    background: blue;
-    border: none;
-    border-radius: 2px;
-    color: white;
- }
+form a {
+  color: blue;
+  text-align: left;
+  margin-bottom: 0.8em;
+}
+
+form button {
+  background: blue;
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+
+form {
+  /* border: 1px solid white; */
+  max-width: 100%;
+  width: 100%;
+  margin-top: 1.2em;
+}
+
+.inputfield {
+  max-width: inherit;
+  width: inherit;
+  margin-bottom: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 0.3em;
+}
+
+.inputfield input,
+button {
+  max-width: inherit;
+  width: inherit;
+  padding: 0.3em 0.2em;
+}
+
+.inputfield button {
+  margin-top: 0.5em;
+}
 
 
+
+/* LOADER */
+.loader {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.463);
+    /* opacity: 0.5; */
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* border: 1px solid red; */
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 @media (width < 500px) {
-    form {
-        /* border: 1px solid white; */
-        max-width: 100%;
-        width: 100%;
-        margin-top: 1.2em;
-    }
-
-    .inputfield {
-        max-width: inherit;
-        width: inherit;
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        row-gap: 0.3em;
-    }
-
-    .inputfield input,button {
-        max-width: inherit;
-        width: inherit;
-        padding: 0.3em 0.2em;
-    }
-
-    .inputfield button {
-        margin-top: 0.5em;
-        
-    }
 }
