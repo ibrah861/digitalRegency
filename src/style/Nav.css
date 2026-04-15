@@ -47,7 +47,7 @@ nav ul li:hover {
   width: inherit;
   height: 0.1rem;
   margin: 0.2em 0;
-  background: white;
+  background: black;
 }
 
 .menu-nav {
@@ -82,11 +82,17 @@ nav img {
   color: black;
 }
 
+.menu-nav ul a,li {
+  color: white;
+  text-decoration: none;
+}
+
 .menu-nav p {
   margin: 0.9em 0 0 0.3em;
   letter-spacing: 0.1em;
   text-decoration: underline;
   text-transform:uppercase;
+  color: white;
 }
 
 

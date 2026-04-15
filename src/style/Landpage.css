@@ -118,7 +118,7 @@
 }
 
 .box-property {
-     background: rgba(0, 0, 0, 0.091);
+     background: white;
       border: 1px solid gray;
     padding: 0.3em 0.6em;
     border-radius: 6px;
@@ -162,5 +162,6 @@
 .createPost {
     margin-top: 0.4em;
     padding: 0.2em 0.3em;
-    background: rgba(0, 0, 255, 0.546);
+    background:green;
+    color: white;
 }
