@@ -24,6 +24,7 @@ img {
   object-fit: cover;
 }
 
+
 @media (width < 500px) {
   body {
     font-size: 62.5%;
