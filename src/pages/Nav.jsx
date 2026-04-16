@@ -13,7 +13,7 @@ const Navigation = () => {
   };
   return (
     <div className="nav">
-      <div className="main">
+      <div>
         <nav>
           <ul>
             <Link to="/auth-signin">
