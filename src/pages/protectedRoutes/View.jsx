@@ -48,12 +48,21 @@ const View = () => {
               ? "No post has been created for now."
               : `About ${u} post has been created `}
           </p>
-          <p className="bold-element">Currect post</p>
-          <p className="createPost">
-            New post name called
-            <span className="newPostname">"{"mynewpost"}"</span> has been
-            created
-          </p>
+          <p className="bold-element current">Currect post</p>
+
+          <p className="no-post">No new post created now !</p>
+
+          <div>
+            <p className="createPost">
+              New post name called
+              <span className="newPostname">"{"mynewpost"}"</span> has been
+              created
+            </p>
+
+            <Link to="/post">
+              <p className="view-post">View post</p>
+            </Link>
+          </div>
         </div>
 
         <div className="box-property">

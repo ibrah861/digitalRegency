@@ -187,10 +187,24 @@
     color: pink;
 }
 
+.current {
+    margin-bottom: 0.7em;
+}
+
 .createPost {
     margin-top: 0.4em;
     padding: 0.6em 0.6em;
-    border-radius: 6px;
+   
     background:green;
     color: white;
+}
+
+.no-post {
+    color : white;
+    background: goldenrod;
+    padding: 0.6em 0.6em;
+}
+
+.view-post {
+    margin-top: 0.3em;
 }

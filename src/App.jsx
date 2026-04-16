@@ -22,6 +22,7 @@ import AuthSignin from "./pages/authPage/Auth.Login";
 import View from "./pages/protectedRoutes/View";
 import Create from "./pages/protectedRoutes/Create";
 import Update from "./pages/protectedRoutes/Update";
+import Post from "./pages/protectedRoutes/Post";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/create" element={<Create />} />
           <Route path="/update" element={<Update />} />
           <Route path="/view" element={<View />} />
+          <Route path="/posts" element={<Post />} />
         </Routes>
       </NavigationContext>
     </>
