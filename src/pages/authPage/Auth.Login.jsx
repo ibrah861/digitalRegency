@@ -18,7 +18,7 @@ const AuthSignin = () => {
   return (
     <>
       <div className=" main">
-        <div className="signup ">
+        <div>
           <h1>Welcome to Digital world</h1>
           <p>
             Kindly use bellow input field to signup by entering your details

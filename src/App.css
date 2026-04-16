@@ -35,9 +35,9 @@ img {
 
 
 @media (width < 500px) {
-  body {
+  /* body {
     font-size: 62.5%;
-  }
+  } */
 
   button,input {
     font-size: inherit;
