@@ -119,16 +119,17 @@ nav img {
   .menu {
     display: block;
   }
-/* 
+
   .menu-nav {
   display: block;
   position: fixed;
   background: black;
   bottom: 0;
   left: 0;
+  top: 0;
   right: 30%;
   z-index: 4;
-} */
+}
 
 }
 
@@ -142,16 +143,6 @@ nav img {
     display: none;
   }
 
-  .menu-nav {
-    display: block;
-  position: absolute;
-  background: black;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 30%;
-  z-index: 4;
-}
 }
 
 

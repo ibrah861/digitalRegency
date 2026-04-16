@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 // images
 import image1 from "../assets/water.svg";
+import mindset from "../assets/mindset.png";
 
 const Landpage = () => {
   return (
@@ -16,10 +18,23 @@ const Landpage = () => {
             for completely free. no charges will be deducted{" "}
           </p>
           <p className="p2">
-            <button className="butt-property">Create blog</button>
+            <Link to="/create">
+              <button className="butt-property">Create blog</button>
+            </Link>
           </p>
 
-          <img src={image1} alt="water" className="water-img" />
+          <div className="flex-around">
+            <div className="mind-text">
+              <p>Smart mindset</p>
+              <p>
+                The way you think about yourself, your abilities, and the world
+                around you.
+              </p>
+            </div>
+            <div className="mind-img">
+              <img src={mindset} alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </>
