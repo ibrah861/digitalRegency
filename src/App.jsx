@@ -37,7 +37,7 @@ function App() {
           <Route path="/create" element={<Create />} />
           <Route path="/update" element={<Update />} />
           <Route path="/view" element={<View />} />
-          <Route path="/posts" element={<Post />} />
+          <Route path="/post" element={<Post />} />
         </Routes>
       </NavigationContext>
     </>
