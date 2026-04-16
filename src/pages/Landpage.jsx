@@ -9,12 +9,14 @@ const Landpage = () => {
       <div className="main">
         <div className="hero">
           <h1>
-            Integrated Water Service and property Tax Administration System
+            Welcome to web blog site. Tell us what do you want to create today
           </h1>
-          <p className="p1">This system designed to track unpaid payment</p>
+          <p className="p1">
+            Here you can Build, Update, and Delete your post with in a second
+            for completely free. no charges will be deducted{" "}
+          </p>
           <p className="p2">
-            Service beneficiaries are highly recommed to pay early to avoid any
-            inconvenience
+            <button className="butt-property">Create blog</button>
           </p>
 
           <img src={image1} alt="water" className="water-img" />
